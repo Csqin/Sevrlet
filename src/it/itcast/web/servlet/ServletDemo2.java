@@ -2,7 +2,9 @@ package it.itcast.web.servlet;
 
 import javax.servlet.*;
 import java.io.IOException;
-
+/*
+  Servlet　生命周期
+ */
 public class ServletDemo2 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {

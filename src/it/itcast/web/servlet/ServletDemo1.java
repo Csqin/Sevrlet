@@ -3,6 +3,9 @@ package it.itcast.web.servlet;
 import javax.servlet.*;
 import java.io.IOException;
 
+/**
+ * 第一个Servlet
+ */
 public class ServletDemo1 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {

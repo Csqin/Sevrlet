@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sevrlet.iml" filepath="$PROJECT_DIR$/Sevrlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SevrletMode/SevrletMode.iml" filepath="$PROJECT_DIR$/SevrletMode/SevrletMode.iml" />
     </modules>
   </component>
 </project>

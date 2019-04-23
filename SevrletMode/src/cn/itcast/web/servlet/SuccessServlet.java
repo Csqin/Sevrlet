@@ -12,8 +12,9 @@ import java.io.IOException;
 @WebServlet("/SuccessServlet")
 public class SuccessServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //获取
+        //获取User对象
         response.setContentType("text/html;charset=utf-8");
+        //设置页面显示字符集
         User user=(User)  request.getAttribute("user");
         response.getWriter().write("登录成功！"+user.getUsername()+",欢迎您");
 

@@ -27,7 +27,9 @@ public class LoginServlet extends HttpServlet {
         user.setUsername(username);
         user.setPassword(password);
     */
-        //BeanUtils工具类，用来封装目标对象
+
+
+     //BeanUtils工具类，用来封装目标对象
         //1.获取map集合
         Map<String, String[]> map = request.getParameterMap();
         //2.获取目标对象

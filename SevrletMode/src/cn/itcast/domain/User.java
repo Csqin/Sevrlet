@@ -1,5 +1,9 @@
 package cn.itcast.domain;
 
+/**
+ *   User对象实体类
+ *   设置其getter和setter，toString方法
+ */
 public class User {
 
     private  int id ;
